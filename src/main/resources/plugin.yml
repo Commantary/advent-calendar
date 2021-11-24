@@ -1,0 +1,5 @@
+name: Adventcalendar
+version: '${project.version}'
+main: fr.commentary.adventcalendar.Main
+api-version: 1.17
+authors: [ Commentary ]
