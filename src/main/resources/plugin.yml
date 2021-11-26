@@ -1,5 +1,16 @@
-name: Adventcalendar
+name: AdventCalendar
 version: '${project.version}'
 main: fr.commentary.adventcalendar.Main
 api-version: 1.17
 authors: [ Commentary ]
+commands:
+  calendar:
+    description: Open the calendar GUI
+    usage: /calendar, /cal
+    aliases:
+      - cal
+  acalendar:
+    description: Admin command
+    usage: /acalendar set/give/reload
+    aliases:
+      - acal
