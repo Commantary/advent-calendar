@@ -44,10 +44,10 @@ public class Gift {
             player.sendMessage(main.getConfig_().getMessageConfig().replaceText(message));
         }
 
-        for (String command : Main.getInstance().getConfig_().getReward(id).getMessages()) {
+        for (String command : Main.getInstance().getConfig_().getReward(id).getCommands()) {
             command = command.replace("%PLAYER%", player.getName());
 
-            Bukkit.dispatchCommand((CommandSender) Bukkit.getConsoleSender(), command);
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command);
         }
     }
 }

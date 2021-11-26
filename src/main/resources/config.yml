@@ -69,173 +69,173 @@ rewards:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "2":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "3" :
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "4":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "5":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "6":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "7":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "8":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "9":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "10":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "11":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "12":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "13":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "14":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "15":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "16":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "17":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "18":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "19":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "20":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "21":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "22":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "23":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "24":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
   "25":
     messages:
       - "%prefix% Line 1"
       - "%prefix% Line 2"
     commands:
-      - "Command 1"
-      - "Command 2"
+      - "Command %PLAYER% 1"
+      - "Command %PLAYER% 2"
