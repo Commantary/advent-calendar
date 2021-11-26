@@ -45,7 +45,9 @@ public class Gift {
         }
 
         for (String command : Main.getInstance().getConfig_().getReward(id).getCommands()) {
-            command = command.replace("%PLAYER%", player.getName());
+            command = command
+                    .replaceAll("%PLAYER%", player.getName())
+                    .replaceAll("%player%", player.getName());
 
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command);
         }
