@@ -42,7 +42,7 @@ public class AcalendarCommand implements CommandExecutor {
                 return true;
             }
 
-            if (!player.hasPermission("adventcalendar.set")) {
+            if (!player.hasPermission("calendar.set")) {
                 player.sendMessage(Main.getInstance().getConfig_().getMessageConfig().getNO_PERMISSION_MSG());
                 return true;
             }
@@ -79,7 +79,7 @@ public class AcalendarCommand implements CommandExecutor {
                 return true;
             }
 
-            if (!player.hasPermission("adventcalendar.give")) {
+            if (!player.hasPermission("calendar.give")) {
                 player.sendMessage(Main.getInstance().getConfig_().getMessageConfig().getNO_PERMISSION_MSG());
                 return true;
             }

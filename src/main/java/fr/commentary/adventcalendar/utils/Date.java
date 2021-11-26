@@ -34,8 +34,7 @@ public class Date {
 
         String[] arrayOfString = dateStr.split("-");
 
-        return "17";
-        //return arrayOfString[2];
+        return arrayOfString[2];
     }
 
     public static String getTodayMonth() {
