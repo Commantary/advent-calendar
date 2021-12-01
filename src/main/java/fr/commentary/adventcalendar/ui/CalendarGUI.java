@@ -64,7 +64,7 @@ public class CalendarGUI extends FastInv {
 
         setItem(53, new ItemBuilder(
                 main.getConfig_().getBookConfig().getMaterial(),
-                1,
+                main.getConfig_().getBookConfig().getAmount(),
                 (short) main.getConfig_().getBookConfig().getData())
                 .setName(main.getConfig_().getBookConfig().getName().replaceAll("&", "§"))
                 .addLoreLines(main.getConfig_().getBookConfig().getLore())
@@ -73,7 +73,7 @@ public class CalendarGUI extends FastInv {
 
         setItem(49, new ItemBuilder(
                 main.getConfig_().getSaplingConfig().getMaterial(),
-                1,
+                main.getConfig_().getSaplingConfig().getAmount(),
                 (short) main.getConfig_().getSaplingConfig().getData())
                 .setName(main.getConfig_().getSaplingConfig().getName())
                 .addLoreLines(main.getConfig_().getSaplingConfig().getLore())

@@ -16,6 +16,7 @@ gui:
       amount: 1
       data: 0
       name: "&6CHRISTMAS"
+      lore-active: true
       lore:
         - "Merry Christmas !"
     book:
@@ -23,6 +24,7 @@ gui:
       amount: 1
       data: 0
       name: "&bInformation"
+      lore-active: true
       lore:
         - "Information number 1"
         - "Information number 2"
@@ -31,6 +33,7 @@ gui:
       amount: 1
       data: 3
       name: "&6\u27b2  &a%DATE% &2&l\u2714"
+      lore-active: true
       lore:
         - "Line 1"
         - "Line 2"
@@ -40,6 +43,7 @@ gui:
       amount: 1
       data: 3
       name: "&6\u27b2 &a%DATE% &2&l\u2716"
+      lore-active: true
       lore:
         - "Line 1"
         - "Line 2"
@@ -49,6 +53,7 @@ gui:
       amount: 1
       data: 3
       name: "&6\u27b2 &a%DATE% &2&l..."
+      lore-active: true
       lore:
         - "Line 1"
         - "Line 2"
@@ -58,6 +63,7 @@ gui:
       amount: 1
       data: 3
       name: "&6\u27b2 &aReward already collected"
+      lore-active: true
       lore:
         - "Line 1"
         - "Line 2"

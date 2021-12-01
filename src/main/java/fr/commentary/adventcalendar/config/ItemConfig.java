@@ -11,27 +11,22 @@ import java.util.Objects;
 
 public abstract class ItemConfig {
 
-    @Getter
-    @Setter
     public String id;
 
     @Getter
-    @Setter
     public Material material;
 
     @Getter
-    @Setter
     public int amount;
 
     @Getter
-    @Setter
     public int data;
 
-    @Setter
-    public String name;
+    private String name;
 
-    @Setter
-    public List<String> lore;
+    private List<String> lore;
+
+    private boolean loreActive;
 
     public ItemConfig(String id) {
         this.id = id;
@@ -39,7 +34,7 @@ public abstract class ItemConfig {
         reload();
     }
 
-    public void reload(){
+    public void reload() {
         Main main = Main.getInstance();
 
         this.material = Material.getMaterial(Objects.requireNonNull(main.getConfig().getString("gui.items." + this.id + ".material")));
@@ -47,6 +42,7 @@ public abstract class ItemConfig {
         this.data = main.getConfig().getInt("gui.items." + this.id + ".data");
         this.name = main.getConfig().getString("gui.items." + this.id + ".name");
         this.lore = main.getConfig().getStringList("gui.items." + this.id + ".lore");
+        this.loreActive = main.getConfig().getBoolean("gui.items." + this.id + ".lore-active");
     }
 
     public String getName() {
@@ -56,7 +52,9 @@ public abstract class ItemConfig {
     public List<String> getLore() {
         List<String> loreS = new ArrayList<>();
 
-        lore.forEach(s -> loreS.add(s.replaceAll("&", "§")));
+        if (loreActive) {
+            lore.forEach(s -> loreS.add(s.replaceAll("&", "§")));
+        }
 
         return loreS;
     }
