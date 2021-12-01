@@ -125,11 +125,13 @@ public class ItemBuilder implements Cloneable {
      */
     public ItemBuilder addLoreLines(List<String> lines)
     {
+        if(lines.size() == 0) return this;
+
         ItemMeta im   = is.getItemMeta();
         List<String> lore = new ArrayList<>();
         if (im.hasLore()) lore = new ArrayList<>(im.getLore());
-        for(String s : lines)
-            lore.add(s);
+
+        lore.addAll(lines);
         im.setLore(lore);
         is.setItemMeta(im);
         return this;

@@ -39,6 +39,8 @@ public class Config {
     }
 
     public void reload() {
+        Main.getInstance().reloadConfig();
+
         this.messageConfig.reload();
         this.bookConfig.reload();
         this.saplingConfig.reload();
