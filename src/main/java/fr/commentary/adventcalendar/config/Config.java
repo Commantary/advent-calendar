@@ -1,6 +1,8 @@
 package fr.commentary.adventcalendar.config;
 
 import fr.commentary.adventcalendar.Main;
+import fr.commentary.adventcalendar.utils.Gift;
+import fr.commentary.adventcalendar.utils.GiftType;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -46,6 +48,10 @@ public class Config {
         this.saplingConfig.reload();
         this.rewardsConfig.forEach(RewardConfig::reload);
         this.titleGUI = Main.getInstance().getConfig().getString("gui.title").replaceAll("&", "§");
+        GiftType.GET.reload();
+        GiftType.MISS.reload();
+        GiftType.SUCCESS.reload();
+        GiftType.WAITING.reload();
     }
 
     public RewardConfig getReward(int day) {
