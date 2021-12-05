@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Config {
-
     @Getter
     public MessageConfig messageConfig;
 

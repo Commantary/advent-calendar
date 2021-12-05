@@ -27,9 +27,10 @@ public class CalendarGUI extends FastInv {
     );
 
     public CalendarGUI(Player player) {
-        super(6 * 9, "Advent Calendar");
+        super(6 * 9, Main.getInstance().getConfig_().getTitleGUI());
 
         Main main = Main.getInstance();
+
         int[] glassRed = new int[]{1, 3, 5, 7, 9, 17, 27, 35, 45, 47, 49, 51, 53};
         int[] glassWhite = new int[]{0, 2, 4, 6, 8, 18, 26, 36, 44, 46, 48, 50, 52};
 
