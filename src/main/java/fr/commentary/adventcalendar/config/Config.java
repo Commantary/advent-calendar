@@ -47,6 +47,7 @@ public class Config {
         this.saplingConfig.reload();
         this.rewardsConfig.forEach(RewardConfig::reload);
         this.titleGUI = Main.getInstance().getConfig().getString("gui.title").replaceAll("&", "§");
+
         GiftType.GET.reload();
         GiftType.MISS.reload();
         GiftType.SUCCESS.reload();

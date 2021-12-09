@@ -41,16 +41,11 @@ public final class Main extends JavaPlugin {
 
         createFolder();
 
-        for(Player player : Bukkit.getOnlinePlayers()) {
+        for (Player player : Bukkit.getOnlinePlayers()) {
             new PlayerJoinListener().join(player);
         }
 
         FastInvManager.register(this);
-    }
-
-    @Override
-    public void onDisable() {
-        PlayerStats.players.forEach(PlayerStats::save);
     }
 
     private void createFolder() {

@@ -86,7 +86,7 @@ public class PlayerStats {
     }
 
     public static void loadPlayerStats(Player player) {
-        File file = new File(Main.getInstance().getDataFolder(), "stats/" + player.getUniqueId() + ".yml");
+        File file = new File(Main.getInstance().getDataFolder(), "stats/" + player.getUniqueId().toString() + ".yml");
         FileConfiguration config = new YamlConfiguration();
 
         if (!file.exists()) {

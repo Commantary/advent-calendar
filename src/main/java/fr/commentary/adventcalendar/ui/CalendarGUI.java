@@ -115,6 +115,8 @@ public class CalendarGUI extends FastInv {
                     .setSkullTextures(texture)
                     .build()
             );
+
+            playerStats.save();
         }
     }
 }

@@ -22,7 +22,7 @@ public class AcalendarCommand implements CommandExecutor {
             return true;
         }
 
-        if(!(sender instanceof Player)) return true;
+        if (!(sender instanceof Player)) return true;
 
         Player player = (Player) sender;
 
@@ -81,6 +81,7 @@ public class AcalendarCommand implements CommandExecutor {
             PlayerStats playerStats = PlayerStats.getPlayerStats(target);
 
             playerStats.getGiftList().get(number - 1).setType(giftType);
+            playerStats.save();
             player.sendMessage(Main.getInstance().getConfig_().getMessageConfig().getCHANGED_DAY(giftType.getTypeName().toUpperCase()));
         }
 

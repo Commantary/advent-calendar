@@ -12,6 +12,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
+import java.io.File;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -37,10 +38,10 @@ public class PlayerJoinListener implements Listener {
 
     public void join(Player player) {
         UUID uuid = player.getUniqueId();
-        boolean fileExist = PlayerStats.getPlayerStats(player) != null;
+        File fileExist = new File(Main.getInstance().getDataFolder(), "stats/" + player.getUniqueId() + ".yml");
 
         // If the player has never played before
-        if (!fileExist) {
+        if (!fileExist.exists()) {
             PlayerStats.createPlayerStats(player);
         } else {
             PlayerStats.loadPlayerStats(player);
